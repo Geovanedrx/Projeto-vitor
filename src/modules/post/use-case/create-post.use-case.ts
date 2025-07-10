@@ -9,7 +9,7 @@ import { CreatePostDto } from '../dto/create-post.dto';
 
 @Injectable()
 export class CreatePostUseCase {
-    constructor(
+    constructor (
         private readonly createPostRepository: CreatePostRepository,
         private readonly logger: Logger = new Logger(),
     ) { }
