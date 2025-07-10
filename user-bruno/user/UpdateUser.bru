@@ -1,0 +1,17 @@
+meta {
+  name: UpdateUser
+  type: http
+  seq: 3
+}
+
+patch {
+  url: {{url}}/user/a1d3d351-a40a-415a-9d72-a7d3d39e7fc7
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "age":23
+  }
+}

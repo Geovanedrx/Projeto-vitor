@@ -1,0 +1,5 @@
+export * from "./create-post.repository"
+export * from "./findAll-post.repository"
+export * from "./findOne-post.repository"
+export * from "./FindRemove-post.repository"
+export * from "./update-post.repository"

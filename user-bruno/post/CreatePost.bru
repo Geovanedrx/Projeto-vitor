@@ -1,0 +1,20 @@
+meta {
+  name: CreatePost
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{url}}/post
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+  "content": "Testando o conteudo da publivação",
+  "authorid":"a1d3d351-a40a-415a-9d72-a7d3d39e7fc7",
+  "title": "Titulo do Geovane",
+    "published": "publicação teste"
+  }
+}
